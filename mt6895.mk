@@ -310,6 +310,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/mediatek/libaedv \
     hardware/mediatek/libmtkperf_client \
+    hardware/mediatek/wlan/wifi_hal \
     hardware/xiaomi
 
 # Thermal
@@ -339,7 +340,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
-    libwifi-hal-wrapper \
     android.hardware.wifi-service
 
 PRODUCT_PACKAGES += \
