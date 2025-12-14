@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayMT6895 \
     PowerOffAlarmOverlayMT6895 \
     TelephonyOverlayMT6895 \
+    Launcher3QuickStepOverlayMT6895 \
     SettingsOverlayMT6895 \
     SystemUIOverlayMT6895 \
     WifiResOverlayMT6895
