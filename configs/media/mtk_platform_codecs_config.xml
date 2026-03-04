@@ -11,7 +11,7 @@
         <!-- Performance management -->
         <Video name="cpu.boost.multiple.instances"
                cluster="0,1,2"
-               minFrequency="2000000,2750000,1200000" />
+               minFrequency="1000000,2000000,800000" />
         <Video name="c2.mtk.decoder.secure"
                maxConcurrentInstances="1" />
         <Video name="cpu.boost.dolby.4k60fps"

@@ -136,6 +136,23 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.sensors.xiaomi.udfps=true
 endif
 
+PRODUCT_VENDOR_PROPERTIES += \
+    audio.offload.video=true \
+    vendor.audio.offload.video=true \
+    audio.offload.min.duration.secs=30 \
+    vendor.audio.offload.min.duration.secs=30 \
+    audio.offload.pcm.16bit.enable=true \
+    audio.offload.pcm.24bit.enable=true \
+    vendor.audio.offload.pcm.16bit.enable=true \
+    vendor.audio.offload.pcm.24bit.enable=true \
+    persist.vendor.audio.offload.track.enable=true \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.thrashing_limit=80 \
+    ro.lmk.thrashing_limit_decay=5 \
+    ro.lmk.psi_partial_stall_ms=70 \
+    ro.lmk.psi_complete_stall_ms=700
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
