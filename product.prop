@@ -21,6 +21,9 @@ ro.camerax.extensions.enabled=true
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+# GNSS
+persist.sys.gps.lpp=15
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
