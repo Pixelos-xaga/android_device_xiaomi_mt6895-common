@@ -39,6 +39,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.ims-migration.rc",
+    src: "init.ims-migration.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mi_thermald.rc",
     src: "init.mi_thermald.rc",
     sub_dir: "init/hw",
